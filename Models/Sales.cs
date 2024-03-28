@@ -8,6 +8,7 @@ namespace InvMgmt.Models
     {
 
         public int SaleID { get; set; }
+        [ForeignKey("ProductId")]
         public int ProductID { get; set; }
         public int Quantity { get; set; }
         public DateTime SaleDate { get; set; } = DateTime.UtcNow;
