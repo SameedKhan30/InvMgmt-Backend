@@ -16,6 +16,8 @@ namespace InvMgmt.Controllers
         {
             _context = context;
         }
+        #region Purchase
+        #endregion
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {

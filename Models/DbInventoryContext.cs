@@ -14,6 +14,8 @@ namespace InvMgmt.Models
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<Supplier> Suppliers { get; set; }
+        public  DbSet<Sales> Sales { get; set; }
+        public  DbSet<Purchase> Purchase { get; set; }  
      
     } 
 }
